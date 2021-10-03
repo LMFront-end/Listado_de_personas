@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300&display=swap');
+html {
+    background-color: #9f21f3;
+    min-height: 1000px;
+    font-family: 'Karla', sans-serif;
+    background: url(fondo.png), #f321ad;
+    background: url(fondo.png), -webkit-gradient(linear, right top, left top, from(#d421f3), to(#009682));
+    background: url(fondo.png), linear-gradient(to left, #a621f3, #739600);
+}
+
+h1 {
+    color: #fff;
+    padding: 10px;
+    transition: all .5 ease;
+    -webkit-transition: all .5 ease;
+    -moz-transition: all .5 ease;
+    -ms-transition: all .5 ease;
+    -o-transition: all .5 ease;
+}
+
+h1:hover {
+    color: #222;
+    padding: 10px;
+}
+
+.contenedor {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    transition: all .5 ease;
+    -webkit-transition: all .5 ease;
+    -moz-transition: all .5 ease;
+    -ms-transition: all .5 ease;
+    -o-transition: all .5 ease;
+}
+
+#cabecero {
+    background-color: #3f51b5;
+    text-align: center;
+    /* transition: all .5 ease;
+    -webkit-transition: all .5 ease;
+    -moz-transition: all .5 ease;
+    -ms-transition: all .5 ease;
+    -o-transition: all .5 ease; */
+}
+
+#cabecero:hover {
+    background-color: #8a3fb5;
+    text-align: center;
+}
+
+.elemento {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.elemento:last-child {
+    border-bottom: 0;
+}
+
+input[type="checkbox"] {
+    margin: 20px;
+}
+
+p {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #00204a;
+}
+
+form {
+    text-align: center;
+    margin-left: 20px;
+}
+
+.btn-div {
+    text-align: center;
+}
+
+button {
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #3f51b5;
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 6px;
+    border-width: 0;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    text-align: center;
+    height: 60px;
+    margin-left: -20px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-weight: 200;
+    width: 40%;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 #3f51b5;
+}
+
+::placeholder {
+    color: grey;
+    opacity: 1;
+}
